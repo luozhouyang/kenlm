@@ -36,7 +36,6 @@ jobs:
         env:
           CIBW_BUILD: "cp36-*64 cp37-*64 cp38-*64"
           CIBW_MANYLINUX_X86_64_IMAGE: manylinux1
-          CIBW_BEFORE_BUILD: git submodule update --init --recursive && pip install .
 
       - uses: actions/upload-artifact@v2
         with:
