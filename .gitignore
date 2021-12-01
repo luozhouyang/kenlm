@@ -1,3 +1,7 @@
+.vscode
+*.pyc
+__pycache__
+
 util/file_piece.cc.gz
 *.swp
 *.o
